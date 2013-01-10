@@ -10,7 +10,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#A7A7A7;
+    background-color:#EAEAEA;
     background-image:linear-gradient(top, #A7A7A7 0%, #EAEAEA 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #EAEAEA 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #EAEAEA 51%);
@@ -53,6 +53,13 @@ body {
         margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
+}
+
+header {
+	line-height:1.2em;
+	letter-spacing:.02em;
+	text-align:center;
+	text-shadow: 2px 2px 5px gray;
 }
 
 h1 {
