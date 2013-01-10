@@ -10,16 +10,16 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-color:#A7A7A7;
+    background-image:linear-gradient(top, #A7A7A7 0%, #EAEAEA 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #EAEAEA 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #EAEAEA 51%);
     background-image:-webkit-gradient(
         linear,
         left top,
         left bottom,
         color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
+        color-stop(0.51, #EAEAEA)
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -35,13 +35,13 @@ body {
 .app {
     /*background:url(../img/logo.png) no-repeat center top;*/ /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
+    left:20%;
+    top:20%;
     height:50px;                   /* text area height */
     width:400px;                   /* text area width */
     text-align:center;
-    padding:200px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
@@ -64,7 +64,21 @@ h1 {
     text-align:center;
 }
 
-.event {
+h2 {
+	font-size:20px;
+	font-weight:normal;
+	margin:0px;
+	overflow:visible;
+	padding:0px;
+	text-align:center;
+}
+
+p {
+	font-size:18px;
+	
+}
+
+/*.event {
     border-radius:4px;
     -webkit-border-radius:4px;
     color:#FFFFFF;
@@ -98,4 +112,4 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
-}
+}*/
