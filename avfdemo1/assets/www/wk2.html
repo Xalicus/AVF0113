@@ -1,68 +1,65 @@
 <!DOCTYPE html>
 <!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
+	Author: Kevin Ward
+	Class: AVF0113
 -->
-<html>
+<html lang="en">
     <head>
-        <title>Jasmine Spec Runner</title>
-
-        <!-- jasmine source -->
-        <link rel="shortcut icon" type="image/png" href="spec/lib/jasmine-1.2.0/jasmine_favicon.png">
-        <link rel="stylesheet" type="text/css" href="spec/lib/jasmine-1.2.0/jasmine.css">
-        <script type="text/javascript" src="spec/lib/jasmine-1.2.0/jasmine.js"></script>
-        <script type="text/javascript" src="spec/lib/jasmine-1.2.0/jasmine-html.js"></script>
-
-        <!-- include source files here... -->
-        <script type="text/javascript" src="js/index.js"></script>
-
-        <!-- include spec files here... -->
-        <script type="text/javascript" src="spec/helper.js"></script>
-        <script type="text/javascript" src="spec/index.js"></script>
-
-        <script type="text/javascript">
-            (function() {
-                var jasmineEnv = jasmine.getEnv();
-                jasmineEnv.updateInterval = 1000;
-
-                var htmlReporter = new jasmine.HtmlReporter();
-
-                jasmineEnv.addReporter(htmlReporter);
-
-                jasmineEnv.specFilter = function(spec) {
-                    return htmlReporter.specFilter(spec);
-                };
-
-                var currentWindowOnload = window.onload;
-
-                window.onload = function() {
-                    if (currentWindowOnload) {
-                        currentWindowOnload();
-                    }
-                    execJasmine();
-                };
-
-                function execJasmine() {
-                    jasmineEnv.execute();
-                }
-            })();
-        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>AVF0113 iOS App</title>
     </head>
     <body>
-        <div id="stage" style="display:none;"></div>
+        <!-- Home Page -->
+        <div class="app" id="researchwks">
+            <header>
+				<h1>AVF0113 Android App</h1>
+				<h2>By Kevin Ward</h2>
+            </header>
+            <br />
+            <h2>Research Topic Week 2</h2>
+            <h3>Data Research, Project Intent</h3>
+            <p id="wk2"><strong>1. Less obvious perks of using 'live' data resources include 
+            logins and payments. How could Twitter be used in these two scenarios?</strong><br /><br />
+            With not ever really wanting a Twitter account, I don't know to much about it, 
+            just that it's a microblogging site. I have seen other websites asking for 
+            people to login with their Facebook accounts, and I'm sure Twitter would be the 
+            same way. Logging in with your Twitter account would allow you to not have to 
+            create a new account, and be great for authentications, but I'm not sure about 
+            payments, since I've never used Twitter. I would guess with payments it would 
+            be about the same, as long as Twitter saves payment information though.<br /><br />
+            <strong>2. Visit Programmableweb.com and search for JSON-P data sources. Why 
+            would we need JSON-P, specifically?</strong><br /><br />
+            JSON-P data is great for APIs, because it is like it was made for it. The fact 
+            that JSONP is used for cross-origin client-side callbacks, makes it the best 
+            case for APIs, so you can get data from a second website, when you're currently 
+            at the first website.<br /><br />
+            <strong>3. Based on the JSON-P search results: what data resource(s) do you think 
+            might pair well with which types of Native device features?</strong><br /><br />
+            I can see the Camera and Geolocation being paired to the native device feature, 
+            and with the jsonp data feature. It would work great as you can use the devices 
+            camera, geolocate the place it was taken, and then post it to a social site, 
+            like Twitter or Facebook.<br /><br />
+            <strong>4. Please describe any design and functionality intentions you may have 
+            for your Demo app components this month.</strong><br /><br />
+            For my demo app, I was thinking of adding the camera with geolocation component 
+            to add video or pictures of your paranormal activities you happen to capture. 
+            I would like to add integration with youtube also, and Facebook, so you can 
+            upload those pictures and video to either one. I suppose I need to add Twitter 
+            to the list, so I'll do that, so you can Tweet where the next ghost hunt will 
+            be at.<br /><br />
+            <strong>5. Briefly describe some past 'lessons learned' regarding workflow as it 
+            relates to research, design, development, etc.</strong><br /><br />
+            Workflow is a crazy concept to me. I have always procrastinated throughout my 
+            high school and college years. I do try and work on things within the time that 
+            is allotted to me, and sometimes I even had to get assignments in early, because 
+            I had to work all day when the assignments were due. But otherwise I usually 
+            wait until the last day, like today I did, to work on my assignments.</p>
+            
+        </div>
+        <script type="text/javascript" src="cordova-2.3.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

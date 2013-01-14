@@ -63,7 +63,7 @@ header {
 }
 
 h1 {
-    font-size:24px;
+    font-size:26px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
@@ -72,17 +72,25 @@ h1 {
 }
 
 h2 {
-	font-size:20px;
+	font-size:24px;
 	font-weight:normal;
 	margin:0px;
 	overflow:visible;
 	padding:0px;
 	text-align:center;
 }
+h3 {
+	font-size:20px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
 
 p {
 	font-size:18px;
-	
+	font-weight:normal;
+	text-align:left;
 }
 
 /*.event {
