@@ -35,10 +35,10 @@ body {
 .app {
     /*background:url(../img/logo.png) no-repeat center top;*/ /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:20%;
-    top:20%;
+    left:10%;
+    top:10%;
     height:50px;                   /* text area height */
-    width:400px;                   /* text area width */
+    width:480px;                   /* text area width */
     text-align:center;
     padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
@@ -93,6 +93,31 @@ p {
 	text-align:left;
 }
 
+div {
+}
+
+#wk2 {
+	text-align:justify;
+}
+
+#wk3 {
+	text-align:justify;
+}
+
+#wk4 {
+	text-align:justify;
+}
+
+a {
+	color:darkgreen;
+}
+
+footer {
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#0000FF;
+	text-shadow:2px 2px 5px gray;
+}
 /*.event {
     border-radius:4px;
     -webkit-border-radius:4px;
