@@ -93,6 +93,19 @@ p {
 	text-align:left;
 }
 
+div {
+}
+
+a {
+}
+
+footer {
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:0000FF;
+	text-shadow:2px 2px 5px gray;
+}
+
 /*.event {
     border-radius:4px;
     -webkit-border-radius:4px;
