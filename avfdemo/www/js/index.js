@@ -12,6 +12,31 @@ $('#home').on("pageshow", function(){
 
 }); // End code for home page.
 
+$('#camera').on("pageshow", function(){
+}); // End code for camera page.
+
+$('#audio').on("pageshow", function(){
+}); // End code for audio page.
+
+$('#mediaplayback').on("pageshow", function(){
+}); // End code for media playback page.
+
+$('#browser').on("pageshow", function(){
+}); // End code for browser page.
+
+$('#twitter').on("pageshow", function(){
+}); // End code for twitter page.
+
+$('#facebook').on("pageshow", function(){
+}); // End code for facebook page.
+
+$('#youtube').on("pageshow", function(){
+}); // End code for youtube page.
+
+$('#researchwks').on("pageshow", function(){
+}); // End code for research pages.
+
+
 
 $('#addItem').on("pageshow", function(){
 
